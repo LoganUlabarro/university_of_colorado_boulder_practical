@@ -8,30 +8,21 @@ Project Structure
     utilities/: Utility scripts and helper functions.
 
 Requirements
-
     Python 3.x
-    Docker
 
 Setup
 
     Clone the repository:
 bash
-git clone https://github.com/LoganUlabarro/Google_automation_demo.git
+git clone https://github.com/LoganUlabarro/university_of_colorado_boulder_practical.git
 
 Install dependencies:
 bash
 pip install -r requirements.txt
 
-Set up Docker:
-bash
-    docker-compose up
-
 Usage
-    Run scripts from the base directory to start automation processes.
-    Use configurations in config to customize behavior.
-
-Contributing
-Feel free to open issues or submit pull requests for enhancements or bug fixes.
+    You can run locally by opening with cmd and running 'Pytest -s -v testFiles/university_of_colorado_demo.py'
+    alternatively you can set up docker and run in a container (but it's not currently set up to run in headless so I wouldn't recommend it)
 
 License
 This project is licensed under the MIT License.
